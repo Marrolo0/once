@@ -73,7 +73,7 @@
             border-radius: 10px;
             padding: 15px;
             text-align: center;
-            width: 300px; /* Tamaño uniforme para los bloques */
+            width: 250px; /* Tamaño uniforme para los bloques */
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
             transition: transform 0.2s;
         }
@@ -82,9 +82,11 @@
             transform: scale(1.05); /* Efecto de hover */
         }
 
-        video {
+        iframe {
             width: 100%;
+            height: 200px;
             border-radius: 10px;
+            border: none;
         }
 
         p {
@@ -120,37 +122,77 @@
         <h2>Clips de GTAV</h2>
         <hr>
 
-        <!-- Grid de videos -->
+        <!-- Grid de videos: Fila 1 -->
         <div class="video-grid">
             <div class="video-item">
-                <video controls>
-                    <source src="video/vid/GTAV/1.mp4" type="video/mp4">
-                </video>
+                <iframe src="https://www.youtube.com/embed/example1" allowfullscreen></iframe>
                 <p>Caída Terrible</p>
                 <p class="subtitle">GTAV RP</p>
             </div>
 
             <div class="video-item">
-                <video controls>
-                    <source src="video/vid/GTAV/2.mp4" type="video/mp4">
-                </video>
+                <iframe src="https://www.youtube.com/embed/example2" allowfullscreen></iframe>
                 <p>Mago Borrás</p>
                 <p class="subtitle">GTAV RP</p>
             </div>
 
             <div class="video-item">
-                <video controls>
-                    <source src="video/vid/GTAV/3.mp4" type="video/mp4">
-                </video>
+                <iframe src="https://www.youtube.com/embed/example3" allowfullscreen></iframe>
                 <p>Paco Unmuted</p>
                 <p class="subtitle">GTAV RP</p>
             </div>
 
             <div class="video-item">
-                <video controls>
-                    <source src="video/vid/GTAV/4.mp4" type="video/mp4">
-                </video>
+                <iframe src="https://www.youtube.com/embed/example4" allowfullscreen></iframe>
                 <p>El Gran Escape</p>
+                <p class="subtitle">GTAV RP</p>
+            </div>
+        </div>
+
+        <!-- Grid de videos: Fila 2 -->
+        <div class="video-grid">
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/example5" allowfullscreen></iframe>
+                <p>Fuga del Banco</p>
+                <p class="subtitle">GTAV RP</p>
+            </div>
+
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/example6" allowfullscreen></iframe>
+                <p>El Robo Perfecto</p>
+                <p class="subtitle">GTAV RP</p>
+            </div>
+
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/example7" allowfullscreen></iframe>
+                <p>Confrontación en el Parque</p>
+                <p class="subtitle">GTAV RP</p>
+            </div>
+
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/example8" allowfullscreen></iframe>
+                <p>Accidente en la Autopista</p>
+                <p class="subtitle">GTAV RP</p>
+            </div>
+        </div>
+
+        <!-- Grid de videos: Fila 3 -->
+        <div class="video-grid">
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/example9" allowfullscreen></iframe>
+                <p>El Secuestro</p>
+                <p class="subtitle">GTAV RP</p>
+            </div>
+
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/example10" allowfullscreen></iframe>
+                <p>La Batalla Final</p>
+                <p class="subtitle">GTAV RP</p>
+            </div>
+
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/example11" allowfullscreen></iframe>
+                <p>Venganza Nocturna</p>
                 <p class="subtitle">GTAV RP</p>
             </div>
         </div>
