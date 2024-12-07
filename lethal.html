@@ -17,7 +17,7 @@
 
         /* Imagen superior fija */
         .window {
-            height: 900px; /* Altura del "div ventana" */
+            height: 800px; /* Altura del "div ventana" */
             overflow: hidden; /* Oculta el contenido que sobresale */
             position: relative;
         }
@@ -39,11 +39,14 @@
         /* Contenedor desplazable */
         .content {
             text-align: center;
-            background-image: url('images/lethal_bg.png');
             padding: 20px;
-            padding-top: -20px;
             position: relative;
             z-index: 1;
+            background-color: rgba(46, 46, 46, 0.5); /* Fondo semi-transparente */
+            backdrop-filter: blur(10px); /* Efecto de desenfoque */
+            -webkit-backdrop-filter: blur(10px); /* Compatibilidad con Safari */
+            border-radius: 10px; /* Opcional: redondea las esquinas */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
         }
         /* Título principal */
         h2 {
